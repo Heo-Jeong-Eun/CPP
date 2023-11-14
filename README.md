@@ -5,6 +5,25 @@
 
 <br>
 
+## 👋 member 
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Heo-Jeong-Eun"><img src="https://avatars.githubusercontent.com/Heo-Jeong-Eun" width="150px;" alt="">
+    <td align="center"><a href="https://github.com/JeongMin-98"><img src="https://avatars.githubusercontent.com/u/64830434?v=4" width="150px;" alt="">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Heo-Jeong-Eun"><b>Heo Jeong Eun</b></td>
+    <td align="center"><a href="https://github.com/JeongMin-98"><b>Kim Jeong Min</b></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Jen</strong></td>
+    <td align="center"><strong>Min</strong></td>
+  </tr>
+</table>
+
+<br>
+
 ## 🚀 goal
 >  - Learn C++
 >  - Preparing for a Coding Test and Technical Interview
