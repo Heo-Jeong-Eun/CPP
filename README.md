@@ -17,8 +17,8 @@
     <td align="center"><a href="https://github.com/JeongMin-98"><b>Kim Jeong Min</b></td>
   </tr>
   <tr>
-    <td align="center"><strong>Jen</strong></td>
-    <td align="center"><strong>Min</strong></td>
+    <td align="center"><a href="https://github.com/Heo-Jeong-Eun/CPP/tree/Jen"><b>Jen</b></td>
+    <td align="center"><a href="https://github.com/Heo-Jeong-Eun/CPP/tree/Min"><b>Min</b></td>
   </tr>
 </table>
 
