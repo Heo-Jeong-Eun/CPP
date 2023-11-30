@@ -1,4 +1,4 @@
-### Struct VS Class, 구조체 VS 객체
+### Struct VS Class, 구조체 VS 클래스
 
 Struct와 Class 모두 **변수, 메소드를 하나로 묶는 방법**이다.
 
