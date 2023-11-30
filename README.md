@@ -41,7 +41,7 @@
 
 >  | Date | Content | Solve Activity Quiz |
 >  | --- | --- | --- | 
->  | 2023-11-22 ~ 2023-12-01 | 1. List, Stack, Queue | Jen : 1.6.3 / 1.10.1 <br> Min : 1.7.5 / 1.10.1 |
+>  | 2023-11-22 ~ 2023-12-01 | 1. List, Stack, Queue - 1.7 std::list | <p align="center">Jen : 1.6.3 <br> Min : 1.7.5</p> |
 
 ### commit 
 > ```shell
