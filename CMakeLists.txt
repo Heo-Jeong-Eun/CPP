@@ -7,6 +7,7 @@ set(SOURCE ${SOURCE_DIR}/main.cpp)
 set(LIBRARIES_DIR libs)
 set(LIBRARIES
         singleLinkedList
+        circularLinkedList
         )
 
 project(

@@ -10,26 +10,69 @@
  **/
 
 #include <iostream>
-#include <list>
+#include "circularLinkedList/circularLinkedList.hpp"
 
-class MusicPlayList {
-public:
-    int musicNum;
-    std::list<int> playList;
+struct musicPlayer {
+    circularLinkedList playList;
+    circularLinkedList::circularLinkedListIterator cur = playList.begin();
 
-    MusicPlayList() {
-        musicNum = 0;
-    }
+    musicPlayer() = default;
 
-    MusicPlayList(const std::initializer_list<int> &orgList) {
-        for (auto it = std::rbegin(orgList); it != std::rend(orgList); it++) {
-            playList.push_back(*it);
-        }
-        musicNum = orgList.size();
-    }
+    void next();
 
-    void addMusic(int musicName) {
+    void previous();
 
-    }
+    void printall();
 
+    void insert(int step, int song);
+
+    void remove(int song);
 };
+
+void musicPlayer::next() {
+    cur++;
+    std::cout << "다음곡을 재생합니다. " << std::endl;
+    std::cout << *cur << " " << std::endl;
+}
+
+void musicPlayer::previous() {
+    cur--;
+    std::cout << "이전 곡을 재생합니다. " << std::endl;
+    std::cout << *cur << " " << std::endl;
+}
+
+void musicPlayer::printall() {
+    print(this->playList);
+}
+
+void musicPlayer::insert(int step, int song) {
+    playList.insert(this->cur, step, song);
+    cur = this->playList.begin();
+    print(this->playList);
+}
+
+void musicPlayer::remove(int song) {
+    playList.erase(song);
+    print(this->playList);
+}
+
+int main() {
+    std::cout << "음악 플레이어를 생성합니다. " << std::endl;
+    musicPlayer p1;
+
+    std::cout << "음악을 추가합니다. " << std::endl;
+    p1.insert(0, 2);
+    p1.insert(0, 1);
+    p1.insert(0, 0);
+
+    std::cout << "이전 곡은?" << std::endl;
+    p1.previous();
+
+    std::cout << "다음 곡은?" << std::endl;
+    p1.next();
+
+    std::cout << "재생목록을 출력합니다. " << std::endl;
+    p1.printall();
+
+
+}
