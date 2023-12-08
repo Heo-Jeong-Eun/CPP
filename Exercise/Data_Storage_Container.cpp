@@ -7,7 +7,7 @@
 #include <type_traits>
 
 // 가변 인자 템플릿과 std::common_type을 사용하여 임의의 타입의 가변 인자를 받아 std::array로 변환하는 build_array 함수를 정의한다.
-// 이 코드는 가변 인자 템플릿과 std::common_type을 통해 타입 안정성을 유지하면서 임의의 타입을 std::array로 변환하는 일반적인 도구로 사용될 수 있다. 
+// 이 코드는 가변 인자 템플릿과 std::common_type을 통해 타입 안정성을 유지하면서 임의의 타입을 std::array로 변환하는 일반적인 도구로 사용될 수 있다.
 
 // Args...는 가변 인자 템플릿으로 임의의 타입들을 받을 수 있다.
 template<typename ... Args>
