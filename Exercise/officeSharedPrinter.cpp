@@ -21,6 +21,8 @@ public:
         std::cout << "Total copy : " << copy;
     }
 
+
+
     Job() = default;
 };
 
@@ -41,6 +43,7 @@ class Printer {
             queue.pop();
             return item;
         }
+
     }
 
 };
