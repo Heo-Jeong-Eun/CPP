@@ -18,18 +18,16 @@ template<typename ... Args>
 // sizeof...(args) : 가변 인자의 개수
 // std::array의 크기는 가변 인자들의 개수와 동일하게 설정된다.
 // std::array를 생성하여 반환한다.
-auto build_array(Args&&... args) -> std::array<typename std::common_type<Args...>::type, sizeof...(args)>
-{
+auto build_array(Args &&... args) -> std::array<typename std::common_type<Args...>::type, sizeof...(args)> {
     using commonType = typename std::common_type<Args...>::type;
     // std::forward<commonType>((Args&&)args)...를 사용하여 각 인자를 commonType으로 변환한다.
-    return {std::forward<commonType>((Args&&)args)...};
+    return {std::forward<commonType>((Args &&) args)...};
 }
 
-int main()
-{
+int main() {
     auto data = build_array(1, 0u, 'a', 3.2f, false);
 
-    for (auto i : data)
+    for (auto i: data)
         std::cout << i << " ";
     std::cout << std::endl;
 
