@@ -10,9 +10,9 @@
 
 int main() {
     std::vector<std::string> vec = {
-            "Lewis Hamilton", "Lewis Hamilton", "Nico Roseberg",
-            "Sebastian Vettel", "Lewis Hamilton", "Sebastian Vettel",
-            "Sebastian Vettel", "Sebastian Vettel", "Fernando Alonso"
+            "A", "B", "C",
+            "D", "E", "F",
+            "G", "H", "I"
     };
 
     auto it = vec.begin(); // 상수 시간
