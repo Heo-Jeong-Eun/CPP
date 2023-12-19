@@ -42,7 +42,7 @@
 >  | Date | Content | Solve Activity Quiz |
 >  | --- | --- | --- | 
 >  | 2023-12-01 ~ 2023-12-08 | 1. List, Stack, Queue - 1.7 std::list | <p align="center">Jen : 1.6.3 <br> Min : 1.6.3, 1.7.5</p> |
->  | 2023-12-11 ~ 2023-12-15 | 1. List, Stack, Queue - 1.10 벤치마킹 | <p align="center">Jen : 1.7.5 <br> Min : 1.10.1</p> |
+>  | 2023-12-15 ~ 2023-12-22 | 1. List, Stack, Queue - 1.10 벤치마킹 | <p align="center">Jen : 1.7.5 <br> Min : 1.10.1</p> |
 
 ### commit 
 > ```shell
