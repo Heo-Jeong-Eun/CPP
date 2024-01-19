@@ -41,9 +41,9 @@
 
 >  | Date | Content | Solve Activity Quiz |
 >  | --- | --- | --- | 
->  | 2023-12-01 ~ 2023-12-15 | 1. List, Stack, Queue - 1.7 std::list | <p align="center">Jen : 1.6.3 <br> Min : 1.6.3, 1.7.5</p> |
->  | 2023-12-22 ~ 2023-01-05 | 1. List, Stack, Queue - 1.10 벤치마킹 | <p align="center">Jen : 1.7.5 <br> Min : 1.10.1</p> |
->  | 2023-01-05 ~ 2023-01-22 | 2. Tree, Heap, Graph - 2.7 나가며 | <p align="center">Jen : 2.4.6 <br> Min : 2.5.3</p> |
+>  | 2023-12-01 ~ 2023-12-16 | 1. List, Stack, Queue - 1.7 std::list | <p align="center">Jen : 1.6.3 <br> Min : 1.6.3, 1.7.5</p> |
+>  | 2023-12-22 ~ 2023-01-07 | 1. List, Stack, Queue - 1.10 벤치마킹 | <p align="center">Jen : 1.7.5 <br> Min : 1.10.1</p> |
+>  | 2023-01-13 ~ 2023-01-27 | 2. Tree, Heap, Graph - 2.7 나가며 | <p align="center">Jen : 2.4.6 <br> Min : 2.5.3</p> |
 
 ### commit 
 > ```shell
