@@ -10,8 +10,8 @@ C언어에서의 구조체는 실제 데이터만 포함하지만, **C++에서�
 ```cpp
 struct Point
 {
-		int x;
-		int y;
+	int x;
+	int y;
 
 	void init(int x, int y)
 	{
@@ -31,8 +31,8 @@ struct Point
 ```cpp
 struct Point
 {
-		int x;
-		int y;
+	int x;
+	int y;
 };
 
 int main(void)
@@ -42,15 +42,15 @@ int main(void)
 	p1.printPoint2D(); // (1, 0)
 	
 	// 방법 2. 선언 후 멤버변수 초기화
-  Point2D p2;
-  p2.x = 4;
-  p2.y = 5;
-  p2.printPoint2D(); // (4, 5)
-    
-  // 방법 3. 선언 후 멤버변수 초기화
-  Point2D p3;
-  p3.init(3, 5);
-  p3.printPoint2D(); // (3, 5)
+	Point2D p2;
+	p2.x = 4;
+	p2.y = 5;
+	p2.printPoint2D(); // (4, 5)
+	  
+	// 방법 3. 선언 후 멤버변수 초기화
+	Point2D p3;
+	p3.init(3, 5);
+	p3.printPoint2D(); // (3, 5)
 }
 ```
 
@@ -158,11 +158,11 @@ class Point
 
 class Map
 {
-public:
-	int getDistance(Point &p1, Point &p2)
-	{
-		return (p1.x p2.x) ? (p1.x - p2.x) : (p2.x - p1.x);
-	}
+	public:
+		int getDistance(Point &p1, Point &p2)
+		{
+			return (p1.x > p2.x) ? (p1.x - p2.x) : (p2.x - p1.x);
+		}
 };
 ```
 
