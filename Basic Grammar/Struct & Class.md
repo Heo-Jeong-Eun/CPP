@@ -13,18 +13,18 @@ C++의 경우 외부에 공개할 멤버는 **public**으로, 외부 접근을 �
 ```cpp
 class Person 
 {
-  private :
+	private :
 		string name;
 		int height;
 		int weight;
   
-  public : 
-    void Print() 
+	public : 
+		void Print() 
 		{ 
-    	cout << name << " is " << height << "cm tall and weighs " 
-      	<< weight << "kg." << endl; 
-    }
-    void Change(int a, int b) { height = a; weight = b; }
+			cout << name << " is " << height << "cm tall and weighs " 
+				<< weight << "kg." << endl; 
+		}
+		void Change(int a, int b) { height = a; weight = b; }
 };
 ```
 
