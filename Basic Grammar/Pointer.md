@@ -23,14 +23,13 @@ using namespace std;
 
 int main(void)
 {
-    int n = 10;
-    int *nPtr;
-
-    nPtr = &n; // n의 메모리 주소를 포인터 변수에 저장
-
-    cout << "nPtr : " << nPtr << "\n"; // 포인터 변수 주소 출력
-    cout << "&n : " << &n << "\n"; // n의 주소 출력
-    
+	int n = 10;
+	int *nPtr;
+	
+	nPtr = &n; // n의 메모리 주소를 포인터 변수에 저장
+	
+	cout << "nPtr : " << nPtr << "\n"; // 포인터 변수 주소 출력
+	cout << "&n : " << &n << "\n"; // n의 주소 출력
 }
 ```
 
