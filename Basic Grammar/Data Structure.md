@@ -52,34 +52,35 @@ struct Node
 
 struct Node 
 {
-    int data;
-    Node* next;
+	int data;
+	Node* next;
 };
 
 int main() 
 {
-    // 노드 생성
-    Node* node1 = new Node{1, nullptr};
-    Node* node2 = new Node{2, nullptr};
-    Node* node3 = new Node{3, nullptr};
-
-    // 노드들을 연결
-    node1->next = node2;
-    node2->next = node3;
-
-    // 연결 리스트 순회
-    Node* current = node1;
-    while (current != nullptr) {
-        std::cout << current->data << " ";
-        current = current->next;
-    }
-
-    // 메모리 해제
-    delete node1;
-    delete node2;
-    delete node3;
-
-    return 0;
+	// Node 생성
+	Node* node1 = new Node{1, nullptr};
+	Node* node2 = new Node{2, nullptr};
+	Node* node3 = new Node{3, nullptr};
+	
+	// Node들을 연결
+	node1->next = node2;
+	node2->next = node3;
+	
+	// 연결 리스트 순회
+	Node* current = node1;
+	while (current != nullptr) 
+	{
+		std::cout << current->data << " ";
+		current = current->next;
+	}
+	
+	// 메모리 해제
+	delete node1;
+	delete node2;
+	delete node3;
+	
+	return 0;
 }
 ```
 
