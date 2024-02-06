@@ -41,7 +41,8 @@ delete []없앨 메모리 포인터;
 **동적 할당의 경우 delete 선언의 순서에 따라 소멸자가 호출된다.** 이때 동적 할당이 아닌 정적 변수의 주소값을 가지고 있는 포인터를 delete 할 경우 Error가 발생한다. 
 
 ```cpp
-#include <iostream
+#include <iostream>
+
 using namespace std;
 
 int main(void) 
@@ -75,7 +76,8 @@ int* arr = new int[5] {0, 0, 0, 0, 0};
 ```
 
 ```cpp
-#include <iostream
+#include <iostream>
+
 using namespace std;
 
 int main(void) 
@@ -96,28 +98,29 @@ int main(void)
 ```
 
 ```cpp
-#include <iostream
+#include <iostream>
+
 using namespace std;
 
 int main(void) 
 {
-    int count;
-    cout << "배열의 길이를 입력하세요 : ";
-    cin count;
-    int * arr = new int[count];
-    
-    for (int i = 0; i < count; i++) 
-		{
-        arr[i] = i;
-    }
-    
-    for (int i = 0; i < count; i++) 
-		{
-        cout << arr[i] << " ";
-    }
-    
-    delete []arr;
-    return 0;
+	int count;
+	cout << "배열의 길이를 입력하세요 : ";
+	cin >> count;
+	int * arr = new int[count];
+	
+	for (int i = 0; i < count; i++) 
+	{
+		arr[i] = i;
+	}
+	
+	for (int i = 0; i < count; i++) 
+	{
+		cout << arr[i] << " ";
+	}
+	
+	delete []arr;
+	return 0;
 }
 ```
 
