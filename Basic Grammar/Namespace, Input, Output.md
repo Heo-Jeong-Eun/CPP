@@ -17,7 +17,7 @@ int main(void)
 	int num;
 	
 	cout << "숫자 입력 : "; // cout은 printf와 동일하다. 
-	cin >num; // cin은 scanf와 동일하다. 
+	cin >> num; // cin은 scanf와 동일하다. 
 	cout << num << endl; // endl은 개행 문자 출력
 
 	return 0;
