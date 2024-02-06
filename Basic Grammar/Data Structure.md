@@ -42,8 +42,8 @@ Random Access가 어려워 **O(n)의 시간 복잡도**를 가진다. 특정 위
 ```cpp
 struct Node 
 {
-    int data;       // 현재 노드의 데이터
-    Node* next;     // 다음 노드의 주소(포인터)
+	int data; // 현재 Node의 데이터
+	Node* next; // 다음 Node의 주소(포인터)
 };
 ```
 
