@@ -122,12 +122,12 @@ C 스타일 배열의 단점 중 하나는 **함수 호출 시에 해당 배열�
 // you need to specify the array size in the function declaration
 void printElements(int(&arr)[4])
 {
-  int length = sizeof(arr) / sizeof(arr[0]); // we can now do this since the array won't decay
-
-  for (int i = 0; i < length; ++i)
-  {
-    std::cout << arr[i] << std::endl;
-  }
+	int length = sizeof(arr) / sizeof(arr[0]); // we can now do this since the array won't decay
+	
+	for (int i = 0; i < length; ++i)
+	{
+		std::cout << arr[i] << std::endl;
+	}
 }
 
 int main()
